@@ -1,0 +1,54 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test outputs
+*.log
+*.tmp
+test_results/
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Documentation builds
+docs/_build/
+site/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Docker
+.dockerignore
+
+# Misc
+*.bak
+*.orig
+*.rej
